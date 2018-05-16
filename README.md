@@ -25,8 +25,7 @@ Genome marker effects(or Transcriptome effect) are nested within Transcriptome e
 	data(Tdata)
 	data(alldata)
 	independent <- "E(B)"
-	gtWAS(Tdata,alldata,independent,selection='stepwise',select="SBC",
-      Choose="SBC",vecThr=c(0.05,0.05,0.05),correct = "Bonferroni")
+	gtWAS(Tdata,alldata,independent,selection='stepwise',select="SBC",Choose="SBC",vecThr=c(0.05,0.05,0.05),correct = "Bonferroni")
 	##---#---##
     ##Maybe it is not a good idea to use the same varible for the gtWAS function and gtWAS package name
 	
