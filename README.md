@@ -11,7 +11,7 @@ In this package, we applied the method in Liu W. (2011) <doi:10.1007/s00122-011-
 
 Genome marker effects(or Transcriptome effect) are nested within Transcriptome effects(or Genome marker effects) are perfomed as independent variable besides general methods of GWAS and TWAS. 
 
-## 2. Statistical and coding details in this package
+## 2. Statistical details in this package
 
 * The best linear model can be obtained by stepwise regression analysis. 
 * F test based on full and reduced model are performed to obtain p value or likelihood ratio statistic(LOD). 
